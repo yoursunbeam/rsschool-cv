@@ -23,6 +23,8 @@ I received a diploma of environmental engineer in 2009 and started working at an
 ********************
 ### Courses
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+* HTMLacademy (in progress)
+* Computer Science Basics, EPAM (2022)
 *********************
 ### Languages
 * English (B1)
