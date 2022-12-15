@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>cv</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="assets/favicon.ico">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class=" main main-container">
+            <div class="container">
+                <section class="no-grid-profile" id="profile">
+                    <h1 class="section-title">EKATERINA LAGUTINA</h1>
+                    <h2 class="section-title">Junior Frontend Developer</h2>
+                    <img class="foto" src="assets/avatar.jpg" alt="my foto" width="100" height="134">
+                </section>
+                <section class="section" id="contacts"> 
+                <h2 class="section-title">Contact information</h2>
+                <ul>
+                    <li><b>phone:</b> +79204091662</li>
+                    <li><b>email:</b> lagutinaekaterina2016@mail.ru</li>
+                    <li><b>Telegram:</b> @EkaterinaLag</li>
+                    <li><b>Discord:</b> EkaterinaL#7038</li>
+                    <li><b>GitHub:</b> yoursunbeam</li>
+                </ul>
+                </section>
+                <section class="section" id="summary">
+                    <h2 class="section-title">Briefly about myself</h2>
+                    <p>I love programming because it's exciting to create new things and solve different tasks. I was interested in programming at school, but for certain reasons I chose to study chemistry and ecology.
+            At some point, I realized that working in this field no longer fascinates me as much as before, and I remembered my high school passion for computer science.
+            During this time, the IT field has experienced a huge leap in development and continues to move forward rapidly. I have a lot to remember and learn even more first, it's very exciting.</p>
+                </section>  
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills and Profiency</h2>
+                    <ul>
+                        <li>HTML, CSS</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>SQL</li>
+                    </ul>
+                </section>
+                <section class="section" id="code">
+                    <h2 class="section-title">Code Example</h2>
+                    <pre>
+                        <code>
+
+                    DAYS=7
+
+                    def sum(num):
+                        total=0
+                        for n in num:
+                            total=total+n
+                        print('Сумма значений в списке=',total)
+    
+                    def main():
+                        sales=[]
+                        for i in range(1,DAYS+1,1):
+                            value=float(input('Введите продажи за день '))
+                            sales.append(value)
+                        print(sales)
+    
+                        sum(sales)
+    
+
+                    main()
+                        </code>
+                    </pre>
+                </section>
+                <section class="section" id="projects">
+                    <h2 class="section-title">Work Experience and Projects</h2>
+                    <ul>
+                        <li><a href="https://www.sibur.ru/voronejkauchuk/">Voronezhsintezkauchuk</a>, chemical engineer (2010-2022)</li>
+                        <li><a href="https://github.com/yoursunbeam/rsschool-cv">Projects in RS School</a></li>
+                        <li><a href="https://github.com/yoursunbeam/Python">Python Programming Tasks</a></li>
+                        <li><a href="https://github.com/yoursunbeam/netology_tasks">Projects in Netology</a></li>
+                    </ul>
+                </section>
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <ul>
+                        <li><a href="https://vsuet.ru/"><b>VSUET</b></a>, enviromental engineer (2009)</li>
+                        <li><a href="https://www.sololearn.com/learning/1014"><b>Sololearn</b>-"HTML"</a> (2020)</li>
+                        <li><a href="https://elearn.epam.com/courses/course-v1:EPAM+CSB+ext1/course/"><b>EPAM Learn</b>- "Computer Science Basic"</a> (2022)</li>
+                        <li><a href="https://netology.ru/profile/program/wm-81/schedule"><b>Netology</b>- "Basics of site layout"</a> (2022)</li>
+                        <li><a href="https://stepik.org/course/63054/syllabus"><b>stepik</b>- "Interactive SQL Simulator"</a> (2022)</li>
+                        <li><a href="https://rs.school/js-stage0/"><b>RS School</b>- "JavaScript/Front-end. Stage 0"</a> (in progress)</li>
+                        <li><a href="https://htmlacademy.ru/courses"><b>HTML academy</b>- "Start in Frontend","Immersion in layout"</a> (in progress)</li>
+                        <li><a href="https://ru.hexlet.io/courses/js-basics"><b>Hexlet</b>- JavaScript basics</a> (in progress)</li>
+                    </ul>
+                </section>
+                <section class="section" id="languages">
+                    <h2 class="section-title">Languages</h2>
+                    <ul>
+                        <li>Russian(native)</li>
+                        <li>English(B1)</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer class="footer no-grid-footer">
+            <div class="container">
+                <span>2022</span>
+                <span><a href="https://github.com/yoursunbeam">GitHub</a></span>
+                <span><a href="https://rs.school/js/"><img src="assets/rs_school_js.svg" alt="RS School's logo" width="100" height="37"></a></span>
+                <span><a href="#nav" class="nav-link">&uarr;Up</a></span>
+            </div>
+        </footer>
+    </body>
+</html>

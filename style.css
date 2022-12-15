@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Roboto Slab;
+    src: url("assets/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: PT Sans;
+    src: url("assets/fonts/PT_Sans/PTSans-Bold.ttf");
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+
+}
+* {
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 3s;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto; 
+}
+.no-grid-profile {
+    text-align: center;
+}
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing:5px;
+    color: #798c77;
+}
+.foto {
+    border-radius: 50px;
+}
+a {
+    text-decoration: none;
+    color: #828282;
+    transition: color 0.5s;
+    color: #5d7260;
+}
+.no-grid-footer {
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+span{
+    margin-left: 200px;
+} 
