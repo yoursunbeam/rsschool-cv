@@ -24,7 +24,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: lightgrey;
 }
 
 .nav-list {
@@ -46,6 +45,9 @@ html {
 .container {
     max-width: 1440px;
     margin: 0 auto; 
+}
+.no-grid-profile {
+    text-align: center;
 }
 .section {
     display: grid;
@@ -71,7 +73,6 @@ a {
     text-align: justify;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: lightgrey;
 }
 
 span{
